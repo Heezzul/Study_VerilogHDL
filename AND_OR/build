@@ -1,0 +1,4 @@
+xvlog ./tb_AND_OR.v ./AND_OR_gate.v
+xelab tb_AND_OR -debug wave -s tb_AND_OR
+xsim tb_AND_OR -gui -wdb simulate_xsim_tb_AND_OR.wdb 
+
