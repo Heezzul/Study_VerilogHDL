@@ -1,0 +1,4 @@
+xvlog ./tb_clock.v 
+xelab tb_clock -debug wave -s tb_clock
+xsim tb_clock -gui -wdb simulate_xsim_tb_clock.wdb 
+
