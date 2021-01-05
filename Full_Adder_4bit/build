@@ -1,0 +1,5 @@
+
+xvlog ./tb_Full_Adder.v ./four_bit_Full_Adder.v
+xelab tb_Full_Adder -debug wave -s tb_Full_Adder
+xsim tb_Full_Adder -gui -wdb simulate_xsim_tb_Full_Adder.wdb 
+
