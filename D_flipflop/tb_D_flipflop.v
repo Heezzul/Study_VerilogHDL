@@ -21,5 +21,4 @@ D_flipflop u_d_flipflop(
     .Q(Q)
 );
 
-
 endmodule
