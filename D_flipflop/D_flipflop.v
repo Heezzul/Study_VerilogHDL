@@ -12,5 +12,4 @@ end
 
 assign Q = data;
 
-
 endmodule
