@@ -1,0 +1,5 @@
+
+xvlog ./tb_D_flipflop.v ./D_flipflop.v
+xelab tb_D_flipflop -debug wave -s tb_D_flipflop
+xsim tb_D_flipflop -gui -wdb simulate_xsim_tb_D_flipflop.wdb 
+
