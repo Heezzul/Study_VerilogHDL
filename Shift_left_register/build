@@ -1,0 +1,5 @@
+
+xvlog ./tb_shift_register.v ./shift_left_register.v
+xelab testbench -debug wave -s testbench
+xsim testbench -gui -wdb simulate_xsim_testbench.wdb 
+
