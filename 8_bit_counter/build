@@ -1,0 +1,5 @@
+
+xvlog ./tb_counter.v ./counter.v
+xelab testbench -debug wave -s testbench
+xsim testbench -gui -wdb simulate_xsim_testbench.wdb 
+
