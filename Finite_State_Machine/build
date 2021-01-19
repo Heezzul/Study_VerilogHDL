@@ -1,0 +1,5 @@
+
+xvlog ./tb_FSM.v ./FSM.v
+xelab FSMtb -debug wave -s FSMtb
+xsim FSMtb -gui -wdb simulate_xsim_FSMtb.wdb 
+
